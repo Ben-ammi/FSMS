@@ -3,15 +3,24 @@
   "WorkspaceRootPath": "D:\\source\\FSMS\\src\\FSMS\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{CDE89BD1-C58D-42FD-A862-F45D292F4835}|FSMS\\FSMS.csproj|d:\\source\\fsms\\src\\fsms\\fsms\\extensions\\auth\\authentication.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{CDE89BD1-C58D-42FD-A862-F45D292F4835}|FSMS\\FSMS.csproj|solutionrelative:fsms\\extensions\\auth\\authentication.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{CDE89BD1-C58D-42FD-A862-F45D292F4835}|FSMS\\FSMS.csproj|d:\\source\\fsms\\src\\fsms\\fsms\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CDE89BD1-C58D-42FD-A862-F45D292F4835}|FSMS\\FSMS.csproj|solutionrelative:fsms\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\source\\RSAllies\\RSAllies\\Authentication\\CustomAuthenticationStateProvider.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{CDE89BD1-C58D-42FD-A862-F45D292F4835}|FSMS\\FSMS.csproj|d:\\source\\fsms\\src\\fsms\\fsms\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CDE89BD1-C58D-42FD-A862-F45D292F4835}|FSMS\\FSMS.csproj|solutionrelative:fsms\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{CDE89BD1-C58D-42FD-A862-F45D292F4835}|FSMS\\FSMS.csproj|d:\\source\\fsms\\src\\fsms\\fsms\\extensions\\auth\\usersession.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{CDE89BD1-C58D-42FD-A862-F45D292F4835}|FSMS\\FSMS.csproj|solutionrelative:fsms\\extensions\\auth\\usersession.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{CDE89BD1-C58D-42FD-A862-F45D292F4835}|FSMS\\FSMS.csproj|d:\\source\\fsms\\src\\fsms\\fsms\\controllers\\authenticationcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CDE89BD1-C58D-42FD-A862-F45D292F4835}|FSMS\\FSMS.csproj|solutionrelative:fsms\\controllers\\authenticationcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CDE89BD1-C58D-42FD-A862-F45D292F4835}|FSMS\\FSMS.csproj|d:\\source\\fsms\\src\\fsms\\fsms\\auth\\usersession.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CDE89BD1-C58D-42FD-A862-F45D292F4835}|FSMS\\FSMS.csproj|solutionrelative:fsms\\auth\\usersession.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CDE89BD1-C58D-42FD-A862-F45D292F4835}|FSMS\\FSMS.csproj|d:\\source\\fsms\\src\\fsms\\fsms\\auth\\authenticate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CDE89BD1-C58D-42FD-A862-F45D292F4835}|FSMS\\FSMS.csproj|solutionrelative:fsms\\auth\\authenticate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -21,7 +30,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 8,
+          "SelectedChildIndex": 6,
           "Children": [
             {
               "$type": "Bookmark",
@@ -49,41 +58,67 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "UserSession.cs",
-              "DocumentMoniker": "D:\\source\\FSMS\\src\\FSMS\\FSMS\\Extensions\\Auth\\UserSession.cs",
-              "RelativeDocumentMoniker": "FSMS\\Extensions\\Auth\\UserSession.cs",
-              "ToolTip": "D:\\source\\FSMS\\src\\FSMS\\FSMS\\Extensions\\Auth\\UserSession.cs",
-              "RelativeToolTip": "FSMS\\Extensions\\Auth\\UserSession.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "DocumentIndex": 0,
+              "Title": "Program.cs",
+              "DocumentMoniker": "D:\\source\\FSMS\\src\\FSMS\\FSMS\\Program.cs",
+              "RelativeDocumentMoniker": "FSMS\\Program.cs",
+              "ToolTip": "D:\\source\\FSMS\\src\\FSMS\\FSMS\\Program.cs",
+              "RelativeToolTip": "FSMS\\Program.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAsAAAAhAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-09T20:26:58.82Z",
+              "WhenOpened": "2024-05-09T20:58:57.139Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 1,
-              "Title": "CustomAuthenticationStateProvider.cs",
-              "DocumentMoniker": "D:\\source\\RSAllies\\RSAllies\\Authentication\\CustomAuthenticationStateProvider.cs",
-              "RelativeDocumentMoniker": "..\\..\\..\\RSAllies\\RSAllies\\Authentication\\CustomAuthenticationStateProvider.cs",
-              "ToolTip": "D:\\source\\RSAllies\\RSAllies\\Authentication\\CustomAuthenticationStateProvider.cs",
-              "RelativeToolTip": "..\\..\\..\\RSAllies\\RSAllies\\Authentication\\CustomAuthenticationStateProvider.cs",
-              "ViewState": "AQIAACEAAAAAAAAAAAAAACwAAAByAAAA",
+              "Title": "HomeController.cs",
+              "DocumentMoniker": "D:\\source\\FSMS\\src\\FSMS\\FSMS\\Controllers\\HomeController.cs",
+              "RelativeDocumentMoniker": "FSMS\\Controllers\\HomeController.cs",
+              "ToolTip": "D:\\source\\FSMS\\src\\FSMS\\FSMS\\Controllers\\HomeController.cs",
+              "RelativeToolTip": "FSMS\\Controllers\\HomeController.cs",
+              "ViewState": "AQIAAAYAAAAAAAAAAAAAAAYAAAAfAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-09T20:26:12.8Z",
+              "WhenOpened": "2024-05-09T20:58:49.429Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "Authentication.cs",
-              "DocumentMoniker": "D:\\source\\FSMS\\src\\FSMS\\FSMS\\Extensions\\Auth\\Authentication.cs",
-              "RelativeDocumentMoniker": "FSMS\\Extensions\\Auth\\Authentication.cs",
-              "ToolTip": "D:\\source\\FSMS\\src\\FSMS\\FSMS\\Extensions\\Auth\\Authentication.cs",
-              "RelativeToolTip": "FSMS\\Extensions\\Auth\\Authentication.cs",
-              "ViewState": "AQIAAAMAAAAAAAAAAAAAABEAAAAAAAAA",
+              "DocumentIndex": 3,
+              "Title": "UserSession.cs",
+              "DocumentMoniker": "D:\\source\\FSMS\\src\\FSMS\\FSMS\\Auth\\UserSession.cs",
+              "RelativeDocumentMoniker": "FSMS\\Auth\\UserSession.cs",
+              "ToolTip": "D:\\source\\FSMS\\src\\FSMS\\FSMS\\Auth\\UserSession.cs",
+              "RelativeToolTip": "FSMS\\Auth\\UserSession.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAcAAAA6AAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-09T20:25:14.155Z",
+              "WhenOpened": "2024-05-09T20:51:56.333Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "AuthenticationController.cs",
+              "DocumentMoniker": "D:\\source\\FSMS\\src\\FSMS\\FSMS\\Controllers\\AuthenticationController.cs",
+              "RelativeDocumentMoniker": "FSMS\\Controllers\\AuthenticationController.cs",
+              "ToolTip": "D:\\source\\FSMS\\src\\FSMS\\FSMS\\Controllers\\AuthenticationController.cs",
+              "RelativeToolTip": "FSMS\\Controllers\\AuthenticationController.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAkAAAAJAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-09T20:50:57.927Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Authenticate.cs",
+              "DocumentMoniker": "D:\\source\\FSMS\\src\\FSMS\\FSMS\\Auth\\Authenticate.cs",
+              "RelativeDocumentMoniker": "FSMS\\Auth\\Authenticate.cs",
+              "ToolTip": "D:\\source\\FSMS\\src\\FSMS\\FSMS\\Auth\\Authenticate.cs",
+              "RelativeToolTip": "FSMS\\Auth\\Authenticate.cs",
+              "ViewState": "AQIAAAUAAAAAAAAAAAAqwB8AAAAuAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-09T20:42:31.545Z",
               "EditorCaption": ""
             }
           ]

@@ -5,6 +5,7 @@ namespace FSMS.Data
 {
     public class AppDbContext(DbContextOptions<AppDbContext> options) : DbContext(options)
     {
+        public DbSet<Allocation> Allocations { get; set; }
         public DbSet<Dates> Dates { get; set; }
         public DbSet<Dispenser> Dispensers { get; set; }
         public DbSet<Nozzle> Nozzles { get; set; }

@@ -4,6 +4,7 @@ using FSMS.Data;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore.Infrastructure;
 using Microsoft.EntityFrameworkCore.Metadata;
+using Microsoft.EntityFrameworkCore.Migrations;
 using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 
 #nullable disable
@@ -11,9 +12,11 @@ using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 namespace FSMS.Migrations
 {
     [DbContext(typeof(AppDbContext))]
-    partial class AppDbContextModelSnapshot : ModelSnapshot
+    [Migration("20240510095653_SecondMigration")]
+    partial class SecondMigration
     {
-        protected override void BuildModel(ModelBuilder modelBuilder)
+        /// <inheritdoc />
+        protected override void BuildTargetModel(ModelBuilder modelBuilder)
         {
 #pragma warning disable 612, 618
             modelBuilder
@@ -35,30 +38,6 @@ namespace FSMS.Migrations
                     b.HasIndex("TanksId");
 
                     b.ToTable("DispenserTank", "Fuel");
-                });
-
-            modelBuilder.Entity("FSMS.Entities.Allocation", b =>
-                {
-                    b.Property<int>("Id")
-                        .ValueGeneratedOnAdd()
-                        .HasColumnType("int");
-
-                    SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<int>("Id"));
-
-                    b.Property<DateTime>("End")
-                        .HasColumnType("datetime2");
-
-                    b.Property<DateTime>("Start")
-                        .HasColumnType("datetime2");
-
-                    b.Property<Guid>("UserId")
-                        .HasColumnType("uniqueidentifier");
-
-                    b.HasKey("Id");
-
-                    b.HasIndex("UserId");
-
-                    b.ToTable("Allocations", "User");
                 });
 
             modelBuilder.Entity("FSMS.Entities.Dates", b =>
@@ -295,7 +274,7 @@ namespace FSMS.Migrations
 
                     b.HasIndex("RoleId");
 
-                    b.ToTable("Users", "User");
+                    b.ToTable("Users");
                 });
 
             modelBuilder.Entity("FSMS.Entities.UserRole", b =>
@@ -313,7 +292,7 @@ namespace FSMS.Migrations
 
                     b.HasKey("Id");
 
-                    b.ToTable("UserRoles", "User");
+                    b.ToTable("UserRoles");
                 });
 
             modelBuilder.Entity("DispenserTank", b =>
@@ -327,15 +306,6 @@ namespace FSMS.Migrations
                     b.HasOne("FSMS.Entities.Tank", null)
                         .WithMany()
                         .HasForeignKey("TanksId")
-                        .OnDelete(DeleteBehavior.Cascade)
-                        .IsRequired();
-                });
-
-            modelBuilder.Entity("FSMS.Entities.Allocation", b =>
-                {
-                    b.HasOne("FSMS.Entities.User", null)
-                        .WithMany("Allocations")
-                        .HasForeignKey("UserId")
                         .OnDelete(DeleteBehavior.Cascade)
                         .IsRequired();
                 });
@@ -429,11 +399,6 @@ namespace FSMS.Migrations
             modelBuilder.Entity("FSMS.Entities.UnitPrice", b =>
                 {
                     b.Navigation("Dates");
-                });
-
-            modelBuilder.Entity("FSMS.Entities.User", b =>
-                {
-                    b.Navigation("Allocations");
                 });
 
             modelBuilder.Entity("FSMS.Entities.UserRole", b =>

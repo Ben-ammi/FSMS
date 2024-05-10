@@ -1,7 +1,9 @@
 ﻿using System.ComponentModel.DataAnnotations;
+using System.ComponentModel.DataAnnotations.Schema;
 
 namespace FSMS.Entities
 {
+    [Table("Users", Schema = "User")]
     public class User
     {
         public Guid Id { get; set; }
@@ -42,5 +44,6 @@ namespace FSMS.Entities
         // Foreign Key and Navigation Property
         public int RoleId { get; set; }
         public UserRole? Role { get; set; }
+        public List<Allocation>? Allocations { get; set; }
     }
 }

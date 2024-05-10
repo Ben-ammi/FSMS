@@ -1,24 +1,7 @@
 {
   "Version": 1,
   "WorkspaceRootPath": "D:\\source\\FSMS\\src\\FSMS\\",
-  "Documents": [
-    {
-      "AbsoluteMoniker": "D:0:0:{CDE89BD1-C58D-42FD-A862-F45D292F4835}|FSMS\\FSMS.csproj|d:\\source\\fsms\\src\\fsms\\fsms\\entities\\allocation.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{CDE89BD1-C58D-42FD-A862-F45D292F4835}|FSMS\\FSMS.csproj|solutionrelative:fsms\\entities\\allocation.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\source\\FSMS\\src\\FSMS\\FSMS\\Migrations\\20240510101903_ThirdMigration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:FSMS\\Migrations\\20240510101903_ThirdMigration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{CDE89BD1-C58D-42FD-A862-F45D292F4835}|FSMS\\FSMS.csproj|d:\\source\\fsms\\src\\fsms\\fsms\\entities\\userrole.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{CDE89BD1-C58D-42FD-A862-F45D292F4835}|FSMS\\FSMS.csproj|solutionrelative:fsms\\entities\\userrole.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{CDE89BD1-C58D-42FD-A862-F45D292F4835}|FSMS\\FSMS.csproj|d:\\source\\fsms\\src\\fsms\\fsms\\entities\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{CDE89BD1-C58D-42FD-A862-F45D292F4835}|FSMS\\FSMS.csproj|solutionrelative:fsms\\entities\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    }
-  ],
+  "Documents": [],
   "DocumentGroupContainers": [
     {
       "Orientation": 0,
@@ -26,7 +9,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 8,
+          "SelectedChildIndex": -1,
           "Children": [
             {
               "$type": "Bookmark",
@@ -55,58 +38,6 @@
             {
               "$type": "Bookmark",
               "Name": "ST:130:0:{75188d03-9892-4ae2-abf1-207126247ce5}"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "20240510101903_ThirdMigration.cs",
-              "DocumentMoniker": "D:\\source\\FSMS\\src\\FSMS\\FSMS\\Migrations\\20240510101903_ThirdMigration.cs",
-              "RelativeDocumentMoniker": "FSMS\\Migrations\\20240510101903_ThirdMigration.cs",
-              "ToolTip": "D:\\source\\FSMS\\src\\FSMS\\FSMS\\Migrations\\20240510101903_ThirdMigration.cs",
-              "RelativeToolTip": "FSMS\\Migrations\\20240510101903_ThirdMigration.cs",
-              "ViewState": "AQIAAAwAAAAAAAAAAAAAAAsAAABFAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-10T10:19:05.028Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "Allocation.cs",
-              "DocumentMoniker": "D:\\source\\FSMS\\src\\FSMS\\FSMS\\Entities\\Allocation.cs",
-              "RelativeDocumentMoniker": "FSMS\\Entities\\Allocation.cs",
-              "ToolTip": "D:\\source\\FSMS\\src\\FSMS\\FSMS\\Entities\\Allocation.cs",
-              "RelativeToolTip": "FSMS\\Entities\\Allocation.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAoAAAApAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-10T10:12:08.857Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "User.cs",
-              "DocumentMoniker": "D:\\source\\FSMS\\src\\FSMS\\FSMS\\Entities\\User.cs",
-              "RelativeDocumentMoniker": "FSMS\\Entities\\User.cs",
-              "ToolTip": "D:\\source\\FSMS\\src\\FSMS\\FSMS\\Entities\\User.cs",
-              "RelativeToolTip": "FSMS\\Entities\\User.cs",
-              "ViewState": "AQIAAB4AAAAAAAAAAAAIwC4AAAA4AAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-10T10:07:10.076Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "UserRole.cs",
-              "DocumentMoniker": "D:\\source\\FSMS\\src\\FSMS\\FSMS\\Entities\\UserRole.cs",
-              "RelativeDocumentMoniker": "FSMS\\Entities\\UserRole.cs",
-              "ToolTip": "D:\\source\\FSMS\\src\\FSMS\\FSMS\\Entities\\UserRole.cs",
-              "RelativeToolTip": "FSMS\\Entities\\UserRole.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAUAAAAVAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-10T10:07:13.013Z",
-              "EditorCaption": ""
             }
           ]
         }

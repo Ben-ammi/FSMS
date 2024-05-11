@@ -1,1 +1,53 @@
-﻿
+﻿#page {
+    display: flex;
+    flex-direction: column;
+    width: 100vw;
+    height: 100vh;
+    padding: 5px;
+    background-color: #f5f9fd;
+    gap: 5px;
+    font-family: 'Fira Code';
+}
+
+#sideNav{
+    width: 100%;
+    background-color: #1f2533;
+    color: white;
+    padding: 10px;
+    border-radius: 5px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#offcanvasNavbar{
+    margin: 10px;
+    border-radius: 5px;
+    width: 250px;
+}
+
+#appName {
+    font-weight: 550;
+}
+
+#content {
+    background-color: white;
+    flex: 1;
+    border-radius: 5px;
+    box-shadow: 0 0 10px 0 rgb(0, 0, 0, 0.1);
+}
+
+@media only screen and (max-width: 768px) {
+    #page {
+        flex-direction: column;
+    }
+
+    #sideNav {
+        width: 100%;
+    }
+
+    #content{
+        width: 100%;
+    }
+}

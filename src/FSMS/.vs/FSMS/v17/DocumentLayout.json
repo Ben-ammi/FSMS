@@ -1,7 +1,16 @@
 {
   "Version": 1,
   "WorkspaceRootPath": "D:\\source\\FSMS\\src\\FSMS\\",
-  "Documents": [],
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{CDE89BD1-C58D-42FD-A862-F45D292F4835}|FSMS\\FSMS.csproj|d:\\source\\fsms\\src\\fsms\\fsms\\views\\shared\\_layout.cshtml.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
+      "RelativeMoniker": "D:0:0:{CDE89BD1-C58D-42FD-A862-F45D292F4835}|FSMS\\FSMS.csproj|solutionrelative:fsms\\views\\shared\\_layout.cshtml.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CDE89BD1-C58D-42FD-A862-F45D292F4835}|FSMS\\FSMS.csproj|d:\\source\\fsms\\src\\fsms\\fsms\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{CDE89BD1-C58D-42FD-A862-F45D292F4835}|FSMS\\FSMS.csproj|solutionrelative:fsms\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    }
+  ],
   "DocumentGroupContainers": [
     {
       "Orientation": 0,
@@ -9,7 +18,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": -1,
+          "SelectedChildIndex": 9,
           "Children": [
             {
               "$type": "Bookmark",
@@ -42,6 +51,32 @@
             {
               "$type": "Bookmark",
               "Name": "ST:0:0:{40ea2e6b-2121-4bb8-a43e-c83c04b51041}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "_Layout.cshtml",
+              "DocumentMoniker": "D:\\source\\FSMS\\src\\FSMS\\FSMS\\Views\\Shared\\_Layout.cshtml",
+              "RelativeDocumentMoniker": "FSMS\\Views\\Shared\\_Layout.cshtml",
+              "ToolTip": "D:\\source\\FSMS\\src\\FSMS\\FSMS\\Views\\Shared\\_Layout.cshtml",
+              "RelativeToolTip": "FSMS\\Views\\Shared\\_Layout.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAwBIAAAAYAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-05-11T22:18:07.591Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "_Layout.cshtml.css",
+              "DocumentMoniker": "D:\\source\\FSMS\\src\\FSMS\\FSMS\\Views\\Shared\\_Layout.cshtml.css",
+              "RelativeDocumentMoniker": "FSMS\\Views\\Shared\\_Layout.cshtml.css",
+              "ToolTip": "D:\\source\\FSMS\\src\\FSMS\\FSMS\\Views\\Shared\\_Layout.cshtml.css",
+              "RelativeToolTip": "FSMS\\Views\\Shared\\_Layout.cshtml.css",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAUAAAAOAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
+              "WhenOpened": "2024-05-11T22:18:10.479Z",
+              "EditorCaption": ""
             }
           ]
         }

@@ -1,6 +1,6 @@
 ﻿#Container {
     background-color: white;
-    width: 500px;
+    width: 450px;
     padding: 10px;
     border-radius: 5px;
     box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.1);
@@ -8,13 +8,21 @@
     flex-direction: column;
     align-items: center;
     gap: 10px;
+    font-family: 'Fira Code';
+}
+ button{
+     font-weight: 550;
+ }
+
+#logo {
+    width: 150px;
 }
 
 @media only screen and (max-width: 768px) {
     #Container {
         background-color: white;
         width: 90%;
-        padding: 5px;
+        padding: 10px;
         border-radius: 5px;
         box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.1);
     }

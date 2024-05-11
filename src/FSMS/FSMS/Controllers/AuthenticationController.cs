@@ -1,4 +1,5 @@
-﻿using Microsoft.AspNetCore.Mvc;
+﻿using FSMS.Models;
+using Microsoft.AspNetCore.Mvc;
 
 namespace FSMS.Controllers
 {
@@ -7,6 +8,19 @@ namespace FSMS.Controllers
         public IActionResult Index()
         {
             return View();
+        }
+
+        [HttpPost]
+        [ValidateAntiForgeryToken]
+        public  IActionResult Login(LoginModel model)
+        {
+            if (!ModelState.IsValid)
+            {
+                return View("Index", model);
+            }
+
+            // Authenticate user
+            return RedirectToAction("Index", "Home");
         }
     }
 }

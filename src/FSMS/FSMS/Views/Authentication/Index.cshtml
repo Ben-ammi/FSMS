@@ -3,17 +3,32 @@
     ViewData["Title"] = "Welcome";
 }
 
+@model LoginModel
+
 <div id="Container">
     
     <img id="logo" src="/logo.svg" />
 
-    <form>
-
-        <div class="input-group mb-3">
-          <span class="input-group-text" id="basic-addon1"></span>
-          <input type="text" class="form-control" placeholder="Username" aria-label="Username" aria-describedby="basic-addon1">
+    <form class="w-100 mb-2" asp-action="Login" method="post">
+        <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+        <div class="mb-3">
+            <div class="input-group mb-1">
+                <span class="input-group-text bi bi-person-bounding-box"></span>
+                <input type="text" class="form-control" placeholder="Bernoulli.Petro" asp-for="Username">
+            </div>
+            <span style="font-size:14px" asp-validation-for="Username" class="text-danger mb-3"></span>
         </div>
 
+        <div class="mb-3">
+            <div class="input-group mb-1">
+                <span class="input-group-text bi bi-shield-lock"></span>
+                <input type="password" class="form-control" placeholder="Password" asp-for="Password">
+            </div>
+            <span style="font-size:14px;margin-bottom: 3px" asp-validation-for="Password" class="text-danger"></span>
+        </div>
+
+
+        <button style="background-color:#171b24;color:white;" type="submit" class="w-100 btn y">Login</button>
     </form>
 
 </div>

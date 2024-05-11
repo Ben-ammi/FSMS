@@ -7,6 +7,18 @@
       "RelativeMoniker": "D:0:0:{CDE89BD1-C58D-42FD-A862-F45D292F4835}|FSMS\\FSMS.csproj|solutionrelative:fsms\\views\\authentication\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
+      "AbsoluteMoniker": "D:0:0:{CDE89BD1-C58D-42FD-A862-F45D292F4835}|FSMS\\FSMS.csproj|d:\\source\\fsms\\src\\fsms\\fsms\\controllers\\authenticationcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CDE89BD1-C58D-42FD-A862-F45D292F4835}|FSMS\\FSMS.csproj|solutionrelative:fsms\\controllers\\authenticationcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CDE89BD1-C58D-42FD-A862-F45D292F4835}|FSMS\\FSMS.csproj|d:\\source\\fsms\\src\\fsms\\fsms\\models\\loginmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CDE89BD1-C58D-42FD-A862-F45D292F4835}|FSMS\\FSMS.csproj|solutionrelative:fsms\\models\\loginmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CDE89BD1-C58D-42FD-A862-F45D292F4835}|FSMS\\FSMS.csproj|d:\\source\\fsms\\src\\fsms\\fsms\\views\\authentication\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{CDE89BD1-C58D-42FD-A862-F45D292F4835}|FSMS\\FSMS.csproj|solutionrelative:fsms\\views\\authentication\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{CDE89BD1-C58D-42FD-A862-F45D292F4835}|FSMS\\FSMS.csproj|d:\\source\\fsms\\src\\fsms\\fsms\\views\\authentication\\index.cshtml.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
       "RelativeMoniker": "D:0:0:{CDE89BD1-C58D-42FD-A862-F45D292F4835}|FSMS\\FSMS.csproj|solutionrelative:fsms\\views\\authentication\\index.cshtml.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
     }
@@ -18,7 +30,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 8,
+          "SelectedChildIndex": 11,
           "Children": [
             {
               "$type": "Bookmark",
@@ -54,26 +66,65 @@
             },
             {
               "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "AuthenticationController.cs",
+              "DocumentMoniker": "D:\\source\\FSMS\\src\\FSMS\\FSMS\\Controllers\\AuthenticationController.cs",
+              "RelativeDocumentMoniker": "FSMS\\Controllers\\AuthenticationController.cs",
+              "ToolTip": "D:\\source\\FSMS\\src\\FSMS\\FSMS\\Controllers\\AuthenticationController.cs",
+              "RelativeToolTip": "FSMS\\Controllers\\AuthenticationController.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA0AAAAiAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-11T16:49:14.688Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "_Layout.cshtml",
+              "DocumentMoniker": "D:\\source\\FSMS\\src\\FSMS\\FSMS\\Views\\Authentication\\_Layout.cshtml",
+              "RelativeDocumentMoniker": "FSMS\\Views\\Authentication\\_Layout.cshtml",
+              "ToolTip": "D:\\source\\FSMS\\src\\FSMS\\FSMS\\Views\\Authentication\\_Layout.cshtml",
+              "RelativeToolTip": "FSMS\\Views\\Authentication\\_Layout.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA8AAAANAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-05-11T16:38:16.339Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "LoginModel.cs",
+              "DocumentMoniker": "D:\\source\\FSMS\\src\\FSMS\\FSMS\\Models\\LoginModel.cs",
+              "RelativeDocumentMoniker": "FSMS\\Models\\LoginModel.cs",
+              "ToolTip": "D:\\source\\FSMS\\src\\FSMS\\FSMS\\Models\\LoginModel.cs",
+              "RelativeToolTip": "FSMS\\Models\\LoginModel.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA4AAABBAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-11T15:02:18.25Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
               "DocumentIndex": 0,
               "Title": "Index.cshtml",
               "DocumentMoniker": "D:\\source\\FSMS\\src\\FSMS\\FSMS\\Views\\Authentication\\Index.cshtml",
               "RelativeDocumentMoniker": "FSMS\\Views\\Authentication\\Index.cshtml",
-              "ToolTip": "D:\\source\\FSMS\\src\\FSMS\\FSMS\\Views\\Authentication\\Index.cshtml",
-              "RelativeToolTip": "FSMS\\Views\\Authentication\\Index.cshtml",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAkAAAAKAAAA",
+              "ToolTip": "D:\\source\\FSMS\\src\\FSMS\\FSMS\\Views\\Authentication\\Index.cshtml*",
+              "RelativeToolTip": "FSMS\\Views\\Authentication\\Index.cshtml*",
+              "ViewState": "AQIAAAkAAAAAAAAAAAAAAAsAAAA8AAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
               "WhenOpened": "2024-05-11T13:53:06.431Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 4,
               "Title": "Index.cshtml.css",
               "DocumentMoniker": "D:\\source\\FSMS\\src\\FSMS\\FSMS\\Views\\Authentication\\Index.cshtml.css",
               "RelativeDocumentMoniker": "FSMS\\Views\\Authentication\\Index.cshtml.css",
               "ToolTip": "D:\\source\\FSMS\\src\\FSMS\\FSMS\\Views\\Authentication\\Index.cshtml.css",
               "RelativeToolTip": "FSMS\\Views\\Authentication\\Index.cshtml.css",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAABYAAAAVAAAA",
+              "ViewState": "AQIAAAMAAAAAAAAAAAAAABUAAAAQAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
               "WhenOpened": "2024-05-11T13:55:20.765Z",
               "EditorCaption": ""

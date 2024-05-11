@@ -1,5 +1,6 @@
 using FSMS.Auth;
 using FSMS.Data;
+using FSMS.Services.User;
 using Microsoft.EntityFrameworkCore;
 
 var builder = WebApplication.CreateBuilder(args);
@@ -21,6 +22,8 @@ builder.Services.AddScoped<Authenticate>();
 builder.Services.AddDbContext<AppDbContext>(
     options => options.UseSqlServer(builder.Configuration.GetConnectionString("AppDbConnection"))
     );
+
+builder.Services.AddScoped<IUserService, UserService>();
 
 var app = builder.Build();
 

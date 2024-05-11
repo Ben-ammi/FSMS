@@ -3,16 +3,12 @@
   "WorkspaceRootPath": "D:\\source\\FSMS\\src\\FSMS\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{CDE89BD1-C58D-42FD-A862-F45D292F4835}|FSMS\\FSMS.csproj|d:\\source\\fsms\\src\\fsms\\fsms\\services\\user\\userservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{CDE89BD1-C58D-42FD-A862-F45D292F4835}|FSMS\\FSMS.csproj|solutionrelative:fsms\\services\\user\\userservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{CDE89BD1-C58D-42FD-A862-F45D292F4835}|FSMS\\FSMS.csproj|d:\\source\\fsms\\src\\fsms\\fsms\\views\\shared\\_layout.cshtml.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
+      "RelativeMoniker": "D:0:0:{CDE89BD1-C58D-42FD-A862-F45D292F4835}|FSMS\\FSMS.csproj|solutionrelative:fsms\\views\\shared\\_layout.cshtml.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{CDE89BD1-C58D-42FD-A862-F45D292F4835}|FSMS\\FSMS.csproj|d:\\source\\fsms\\src\\fsms\\fsms\\controllers\\authenticationcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{CDE89BD1-C58D-42FD-A862-F45D292F4835}|FSMS\\FSMS.csproj|solutionrelative:fsms\\controllers\\authenticationcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{CDE89BD1-C58D-42FD-A862-F45D292F4835}|FSMS\\FSMS.csproj|d:\\source\\fsms\\src\\fsms\\fsms\\auth\\usersession.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{CDE89BD1-C58D-42FD-A862-F45D292F4835}|FSMS\\FSMS.csproj|solutionrelative:fsms\\auth\\usersession.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{CDE89BD1-C58D-42FD-A862-F45D292F4835}|FSMS\\FSMS.csproj|d:\\source\\fsms\\src\\fsms\\fsms\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{CDE89BD1-C58D-42FD-A862-F45D292F4835}|FSMS\\FSMS.csproj|solutionrelative:fsms\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     }
   ],
   "DocumentGroupContainers": [
@@ -22,7 +18,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 8,
+          "SelectedChildIndex": 9,
           "Children": [
             {
               "$type": "Bookmark",
@@ -58,41 +54,28 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "UserService.cs",
-              "DocumentMoniker": "D:\\source\\FSMS\\src\\FSMS\\FSMS\\Services\\User\\UserService.cs",
-              "RelativeDocumentMoniker": "FSMS\\Services\\User\\UserService.cs",
-              "ToolTip": "D:\\source\\FSMS\\src\\FSMS\\FSMS\\Services\\User\\UserService.cs",
-              "RelativeToolTip": "FSMS\\Services\\User\\UserService.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAoAAAAfAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-11T18:57:19.5Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "UserSession.cs",
-              "DocumentMoniker": "D:\\source\\FSMS\\src\\FSMS\\FSMS\\Auth\\UserSession.cs",
-              "RelativeDocumentMoniker": "FSMS\\Auth\\UserSession.cs",
-              "ToolTip": "D:\\source\\FSMS\\src\\FSMS\\FSMS\\Auth\\UserSession.cs",
-              "RelativeToolTip": "FSMS\\Auth\\UserSession.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAkAAAA5AAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-11T18:54:02.938Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
               "DocumentIndex": 1,
-              "Title": "AuthenticationController.cs",
-              "DocumentMoniker": "D:\\source\\FSMS\\src\\FSMS\\FSMS\\Controllers\\AuthenticationController.cs",
-              "RelativeDocumentMoniker": "FSMS\\Controllers\\AuthenticationController.cs",
-              "ToolTip": "D:\\source\\FSMS\\src\\FSMS\\FSMS\\Controllers\\AuthenticationController.cs",
-              "RelativeToolTip": "FSMS\\Controllers\\AuthenticationController.cs",
-              "ViewState": "AQIAAAYAAAAAAAAAAAAzwC0AAAAtAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-11T18:01:54.152Z",
+              "Title": "_Layout.cshtml",
+              "DocumentMoniker": "D:\\source\\FSMS\\src\\FSMS\\FSMS\\Views\\Shared\\_Layout.cshtml",
+              "RelativeDocumentMoniker": "FSMS\\Views\\Shared\\_Layout.cshtml",
+              "ToolTip": "D:\\source\\FSMS\\src\\FSMS\\FSMS\\Views\\Shared\\_Layout.cshtml",
+              "RelativeToolTip": "FSMS\\Views\\Shared\\_Layout.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAwBIAAAAYAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-05-11T22:18:07.591Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "_Layout.cshtml.css",
+              "DocumentMoniker": "D:\\source\\FSMS\\src\\FSMS\\FSMS\\Views\\Shared\\_Layout.cshtml.css",
+              "RelativeDocumentMoniker": "FSMS\\Views\\Shared\\_Layout.cshtml.css",
+              "ToolTip": "D:\\source\\FSMS\\src\\FSMS\\FSMS\\Views\\Shared\\_Layout.cshtml.css",
+              "RelativeToolTip": "FSMS\\Views\\Shared\\_Layout.cshtml.css",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAUAAAAOAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
+              "WhenOpened": "2024-05-11T22:18:10.479Z",
               "EditorCaption": ""
             }
           ]

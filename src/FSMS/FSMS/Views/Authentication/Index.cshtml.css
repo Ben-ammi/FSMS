@@ -1,7 +1,33 @@
-﻿#Container{
-    background-color: red;
-    height: 500px;
-    width: 50%;
+﻿#Container {
+    background-color: white;
+    width: 450px;
     padding: 10px;
     border-radius: 5px;
+    box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.1);
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+    font-family: 'Fira Code';
+}
+ button{
+     font-weight: 550;
+ }
+
+#logo {
+    width: 150px;
+}
+
+@media only screen and (max-width: 768px) {
+    #Container {
+        background-color: white;
+        width: 90%;
+        padding: 10px;
+        border-radius: 5px;
+        box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.1);
+    }
+
+        #logo{
+            width: 120px;
+        }
 }

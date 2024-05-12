@@ -1,5 +1,4 @@
-﻿using FSMS.Data.Types;
-using System.ComponentModel.DataAnnotations.Schema;
+﻿using System.ComponentModel.DataAnnotations.Schema;
 
 namespace FSMS.Entities
 {

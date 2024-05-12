@@ -26,37 +26,19 @@
                 <i style="font-size:26px;" class="bi bi-list"></i>
             </button>
 
-            <div class="offcanvas offcanvas-end" tabindex="-1" id="offcanvasNavbar" aria-labelledby="offcanvasNavbarLabel">
-                <div class="offcanvas-header">
-                    <h5 class="offcanvas-title" id="offcanvasNavbarLabel">Menu</h5>
-                    <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
-                </div>
-                <div class="offcanvas-body">
-                    <ul class="navbar-nav justify-content-end flex-grow-1 pe-3">
-                        <li class="nav-item">
-                            <a class="nav-link active" aria-current="page" href="#">Home</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="#">Link</a>
-                        </li>
-                        <li class="nav-item dropdown">
-                            <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-                                Dropdown
-                            </a>
-                            <ul class="dropdown-menu">
-                                <li><a class="dropdown-item" href="#">Action</a></li>
-                                <li><a class="dropdown-item" href="#">Another action</a></li>
-                                <li>
-                                    <hr class="dropdown-divider">
-                                </li>
-                                <li><a class="dropdown-item" href="#">Something else here</a></li>
-                            </ul>
-                        </li>
-                    </ul>
-                    <form class="d-flex mt-3" role="search">
-                        <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
-                        <button class="btn btn-outline-success" type="submit">Search</button>
-                    </form>
+            <div style="padding:5px;" class="offcanvas offcanvas-end" tabindex="-1" id="offcanvasNavbar" aria-labelledby="offcanvasNavbarLabel">
+                <div style="padding:0;margin:0;display:flex;flex-direction:column;gap:10px;" class="offcanvas-body">
+                    
+                    <a class="myNav active" asp-area="" asp-controller="Home" asp-action="Index" style="">
+                        <i style="font-size:16px;flex-basis:10%" class="bi bi-list"></i>
+                        Home
+                    </a>
+
+                    <a class="myNav" asp-area="" asp-controller="Home" asp-action="Privacy">
+                        <i style="font-size:16px;flex-basis:10%" class="bi bi-list"></i>
+                        Privacy
+                    </a>
+
                 </div>
             </div>
 
@@ -71,5 +53,25 @@
     <script src="/bootstrap/js/bootstrap.bundle.min.js"></script>
     <script src="~/js/site.js" asp-append-version="true"></script>
     @await RenderSectionAsync("Scripts", required: false)
+    <style>
+        .myNav {
+            background-color: #171b24;
+            width: 100%;
+            padding: 5px;
+            border-radius: 5px;
+            display: flex;
+            flex-direction: row;
+            justify-content: start;
+            align-items: center;
+            cursor: pointer;
+            text-decoration: none;
+            color: white;
+        }
+
+        .myNav:hover{
+            color: white;
+            font-weight: 550;
+        }
+    </style>
 </body>
 </html>

@@ -21,3 +21,11 @@ body {
     margin: 0;
     padding: 0;
 }
+
+.OrangeShade{
+    background-color: #e4731c;
+}
+
+.DarkOrangeShade {
+    background-color: #e73b23;
+}

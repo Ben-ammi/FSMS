@@ -1,18 +1,36 @@
 .container{
-    width: 450px ;
+    width: 800px ;
     border: 3px solid rgb(157, 155, 236);
     margin: 60px auto;
     padding: 20px;
-    border-radius: 17px;
+    border-radius: 20px;
     background-color: #8b93ff;
-  }
-  .btn{
-    width: 100%;
-    background-color: #ff71cd;
-  }
-  .btn:hover{
-    background-color:  rgb(167, 167, 197);
   }
   .bg{
     background-color: rgb(157, 155, 236);
+  }
+
+  .form-label {
+    margin-bottom: 0.5rem;
+    font-weight: bold;
+  }
+  .form-control {
+    background-color: #f8f9fa; /* Light grey background */
+  }
+  .btn {
+    width: 100%;
+    border-radius: 20px;
+    background-color: #0ed190; /* Yellow button */
+    color: #212529; /* Dark grey text */
+  }
+  .btn:hover {
+    background-color: grey; /grey on hover */
+  }
+
+  .whole {
+    background-color: rgba(44, 112, 112, 0.877);
+  }
+
+  .loginlink{
+    color:#212529 ;
   }

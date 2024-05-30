@@ -10,8 +10,12 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="adb714a7-d9bf-45a4-819b-9d40e2d4610b" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/.vs/FSMS/DesignTimeBuild/.dtbcache.v2" beforeDir="false" afterPath="$PROJECT_DIR$/.vs/FSMS/DesignTimeBuild/.dtbcache.v2" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.vs/FSMS/v17/.futdcache.v2" beforeDir="false" afterPath="$PROJECT_DIR$/.vs/FSMS/v17/.futdcache.v2" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.vs/FSMS/v17/DocumentLayout.json" beforeDir="false" afterPath="$PROJECT_DIR$/.vs/FSMS/v17/DocumentLayout.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.vs/ProjectEvaluation/fsms.metadata.v8.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.vs/ProjectEvaluation/fsms.metadata.v8.bin" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.vs/ProjectEvaluation/fsms.projects.v8.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.vs/ProjectEvaluation/fsms.projects.v8.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/FSMS/Program.cs" beforeDir="false" afterPath="$PROJECT_DIR$/FSMS/Program.cs" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -48,7 +52,7 @@
   "keyToString": {
     ".NET Launch Settings Profile.FSMS: IIS Express.executor": "Run",
     "RunOnceActivity.ShowReadmeOnStart": "true",
-    "git-widget-placeholder": "DatabaseDesign",
+    "git-widget-placeholder": "AppLogic",
     "ignore.virus.scanning.warn.message": "true",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
@@ -59,6 +63,9 @@
     "vue.rearranger.settings.migration": "true"
   },
   "keyToStringList": {
+    "DatabaseDriversLRU": [
+      "sqlserver.localdb"
+    ],
     "rider.external.source.directories": [
       "C:\\Users\\heris\\AppData\\Roaming\\JetBrains\\Rider2024.1\\resharper-host\\DecompilerCache",
       "C:\\Users\\heris\\AppData\\Roaming\\JetBrains\\Rider2024.1\\resharper-host\\SourcesCache",
@@ -124,6 +131,7 @@
       <workItem from="1715338289979" duration="1003000" />
       <workItem from="1715433829867" duration="340000" />
       <workItem from="1715434243724" duration="232000" />
+      <workItem from="1716658139451" duration="2402000" />
     </task>
     <servers />
   </component>

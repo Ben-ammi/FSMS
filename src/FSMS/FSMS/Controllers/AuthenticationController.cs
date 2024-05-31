@@ -1,5 +1,4 @@
 ﻿using FSMS.Auth;
-using FSMS.Data;
 using FSMS.Models;
 using FSMS.Services.User;
 using Microsoft.AspNetCore.Mvc;
